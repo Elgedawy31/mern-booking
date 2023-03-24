@@ -1,0 +1,59 @@
+.reserve{
+    position: fixed;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+   z-index: 10;
+}
+
+.reserve .rooms{
+    background-color: white;
+    padding: 20px;
+    color: #333;
+    width: 700px;
+    
+    margin: 0 auto;
+}
+.reserve .rooms .roomItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.reserve .rooms .roomItem .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.reserve button:first-of-type{
+    display: flex;
+    margin: 20px;
+    margin-left: auto;
+
+
+}
+
+.reserve button:last-of-type{
+    width: 700px;
+    margin-top: 30px;
+    display: block;
+    margin: 20px auto;
+
+
+}
+
+
+.reserve .room{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.reserve .room label{
+    font-size: 21px;
+    margin-right: 10px;
+}
+
+.reserve .room input{
+    width: 25px;
+}

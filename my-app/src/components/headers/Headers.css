@@ -1,0 +1,83 @@
+.header{
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.header .headerList{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+.header .headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .headerListItem.active{
+    border: 1px solid white;
+    padding: 5px 8px;
+}
+
+.header .container.aha{
+    margin-bottom: 0;
+}
+
+.header .container > h1 {
+    font-size: 26px;
+}
+.header .container > p {
+    font-size: 15px;
+}
+.header .container > button {
+    background-color: white;
+    color: var(--main-color);
+    padding: 6px 8px;
+    border: none;
+}
+
+.headerSearch{
+    height: 50px;
+    background-color: white;
+    color: var(--main-color);
+    padding: 10px;
+    border: 3px solid #febb02;display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:absolute;
+    width: 100%;
+    max-width: 1024px;
+    bottom: -34px;
+}
+
+.headerSearch .itme{
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    gap: 10px;
+}
+.headerSearch .itme > input{
+    border: none;
+    padding: 6px 8px;
+}
+
+
+.headerSearch button{
+    background-color: #003580;
+    color: white;
+    padding: 6px 8px ;
+    border: none;
+
+}
+
+.data{
+    z-index: 3;
+    position: absolute;
+    top: 50px;
+    color: white;
+}

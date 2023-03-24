@@ -1,0 +1,35 @@
+.plist{
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.plist .plistItem {
+    
+    width: 100%;
+}
+.plist .plistItem h1 {
+    /* width: 100%; */
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.plist .plistItem h3 {
+    /* width: 100%; */
+    font-size: 13px;
+    color: #777;
+}
+.plist .plistItem img{
+
+    width: 100%;
+    height: 150px;
+    transition: all 0.3s;
+    object-fit: cover;
+
+}
+.plist .plistItem img:hover{
+
+    transform: scale(1.1);
+}

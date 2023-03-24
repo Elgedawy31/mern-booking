@@ -1,0 +1,37 @@
+/* #003580 */
+
+.navbar{
+    background-color:#003580 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navcontainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.navbar .navcontainer > span{
+    font-weight: bold;
+}
+.navbar .navcontainer .butons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .navcontainer .butons > button{
+    color: var(--main-color);
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    display: block;
+    padding: 6px 8px;
+    font-size: 13px;
+    background-color: white;
+}
+

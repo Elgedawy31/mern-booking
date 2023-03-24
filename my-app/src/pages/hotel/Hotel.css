@@ -1,0 +1,94 @@
+.hotel  {
+    width: 100%;
+    max-width: 1024px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.hotel .imgss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+
+}
+.hotel .imgss img{
+    width: 33%;
+   cursor: pointer;
+}
+
+.hotel .address{
+    display: flex;
+    gap: 10px;
+    color: #333;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.hotel .help > span:first-of-type{
+    margin: 10px 0;
+    color:  #0071c2;
+    display: block;
+}
+.hotel .help > span:last-of-type{
+    margin: 10px 0;
+    color:  green;
+    display: block;
+}
+
+.hotel > button {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: #0071c2;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.overlay{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+.overlay img{
+    position: fixed;
+    width: 80%;
+    height: 80%;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    object-fit: cover;
+}
+
+.overlay .she{
+    color: white;
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    cursor: pointer;
+}
+
+.overlay .right{
+    color: white;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    cursor: pointer;
+}
+
+.overlay button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    color: white;
+    background-color: #0071c2;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}

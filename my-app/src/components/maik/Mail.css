@@ -1,0 +1,28 @@
+.mail{
+    background-color: #003580;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: white;
+}
+
+.mail span{
+    margin-bottom: 30px;
+}
+
+.mail input{
+    width: 400px;
+    margin-right: 10px;
+    padding: 10px ;
+}
+
+.mail button {
+background-color: #ffffff2b;
+color:white;
+font-size: 15px;
+border: none;
+padding: 10px;
+}

@@ -1,0 +1,50 @@
+.flist{
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.flist .myItem {
+    
+    width: 100%;
+}
+.flist .myItem span:nth-of-type(1){
+    display: block;font-weight: bold;
+    color: #333;
+    font-style: 19px;
+}
+.flist .myItem span:nth-of-type(2){
+    display: block;
+    color: #777;
+    font-style: 14px;
+}
+.flist .myItem span:nth-of-type(3){
+    display: block;
+    color: #333;
+    font-style: 18px;
+    font-weight: bold;
+}
+
+.flist .myItem img {
+    
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.flist .myItem .rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.flist .myItem .rating button{
+background-color: #003580;
+border: none;
+color: white;
+padding: 5px 6px;
+display: block;
+border-radius: 5px;
+}
